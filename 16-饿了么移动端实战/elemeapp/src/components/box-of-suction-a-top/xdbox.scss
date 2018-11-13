@@ -1,0 +1,45 @@
+//2\吸顶盒
+.search{
+
+  //吸到顶部
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  z-index: 999;
+  height: 1.96rem;
+  padding: 0.3rem 0.5rem;
+  box-sizing: padding-box;
+  background: #00a7ff;
+
+
+
+  .search-input{
+    display: block;
+    height: 1.36rem;
+    background: #fff;
+
+    span{
+      float: left;
+      line-height: 0.7rem;
+    }
+    .icon-sousuo{
+      width: 0.7rem;
+      height: 0.7rem;
+      margin: 0.33rem 0.25rem 0.33rem 3rem;
+      text-align: center;
+      color: #666;
+      font-size: 0.65rem;
+      //background: olive;
+    }
+    .search-text{
+      height: 0.7rem;
+      margin: 0.33rem  0;
+      font-size: 0.55rem;
+      font-family: simsun;
+      color: #666;
+
+      //background: red;
+
+    }
+  }
+}
